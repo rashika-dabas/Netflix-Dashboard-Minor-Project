@@ -2,7 +2,7 @@
 Using Power BI
 
 ## WORKFLOW
-<img width="660" height="304" alt="image" src="https://github.com/user-attachments/assets/d879ec28-30a1-46ea-a75c-162a61dbfb66" />
+
 
 ## PROBLEM STATEMENT
 1. Which was the best movie and TV show overall in the last 50 years?
