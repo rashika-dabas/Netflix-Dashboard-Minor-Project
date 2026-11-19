@@ -2,7 +2,7 @@
 Using Power BI
 
 ## WORKFLOW
-
+![workflow](workflow.png)
 
 ## PROBLEM STATEMENT
 1. Which was the best movie and TV show overall in the last 50 years?
