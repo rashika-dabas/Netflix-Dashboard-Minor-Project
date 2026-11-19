@@ -21,3 +21,6 @@ Using Power BI
 * imdb_votes: This is the number of people who voted on IMDb for a movie or show. It is important to recognize that this leads to a lot of subjectivity because if very few people have voted for a movie/show its imdb_score will not be very reliable.
 
 The dataset has 5283 records, and this data includes both movies and shows.
+
+## WORKFLOW
+<img width="660" height="304" alt="image" src="https://github.com/user-attachments/assets/d879ec28-30a1-46ea-a75c-162a61dbfb66" />
