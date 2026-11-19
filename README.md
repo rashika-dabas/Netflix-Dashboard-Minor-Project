@@ -7,7 +7,10 @@ Using Power BI
 3. On average, how has the IMDb score been trending over the last 50 years? Has it been deteriorating or improving?
 4. Have more people started voting for movies/shows on IMDb over the last 50 years?
 5. On average, how has the runtime changed over the last 50 years?
-6. How does age certification of a movie affect its rating? 
+6. How does age certification of a movie affect its rating?
+
+## DATA COLLECTION
+Dataset is downloaded from a publicly available resource.
 
 ## DATA UNDERSTANDING
 * id: A unique count of this ID would be useful while calculating and understanding trends. Example: The number of movies released in 2020 would simply be a unique count of the ID field.
