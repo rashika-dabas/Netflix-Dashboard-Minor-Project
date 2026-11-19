@@ -1,6 +1,9 @@
 # Netflix-Dashboard-Minor-Project
 Using Power BI
 
+## WORKFLOW
+<img width="660" height="304" alt="image" src="https://github.com/user-attachments/assets/d879ec28-30a1-46ea-a75c-162a61dbfb66" />
+
 ## PROBLEM STATEMENT
 1. Which was the best movie and TV show overall in the last 50 years?
 2. How many movies do we have in our dataset across the last few years? Do we have more representation of movies from the last 20 years, or is the dataset free from any such skewness?
@@ -24,6 +27,3 @@ Dataset is downloaded from a publicly available resource.
 * imdb_votes: This is the number of people who voted on IMDb for a movie or show. It is important to recognize that this leads to a lot of subjectivity because if very few people have voted for a movie/show its imdb_score will not be very reliable.
 
 The dataset has 5283 records, and this data includes both movies and shows.
-
-## WORKFLOW
-<img width="660" height="304" alt="image" src="https://github.com/user-attachments/assets/d879ec28-30a1-46ea-a75c-162a61dbfb66" />
