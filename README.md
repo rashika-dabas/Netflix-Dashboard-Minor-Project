@@ -27,3 +27,7 @@ Dataset is downloaded from a publicly available resource.
 * imdb_votes: This is the number of people who voted on IMDb for a movie or show. It is important to recognize that this leads to a lot of subjectivity because if very few people have voted for a movie/show its imdb_score will not be very reliable.
 
 The dataset has 5283 records, and this data includes both movies and shows.
+
+## DATA CLEANING
+1. Changed datatype of columns from mixed to standard datatypes.
+2. 
