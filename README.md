@@ -57,3 +57,12 @@ MINX (
 Created a page with KPI plots for DAX measures, a page with all visuals related to problem statement and another page with a text box containing all insights.
 ### Dashboard
 Pinned Report 2 and 3 to the dashboard in Power BI Service.
+
+![dashboard](report_2.png)
+Insights:
+1. Inception was the best movie in the last 50 years (1972 to 2022).
+2. The dataset is overall left skewed because we have a large number of movies after 2010 as compared to that before 2002.
+3. IMDB score been trending over the last 50 years with a lot of fluctuations.
+4. More people started voting for movies/shows on IMDB over the last 50 years.
+5. On average, how has the runtime changed over the last 50 years
+6. 'R' age certification shows the highest overall ratings.
