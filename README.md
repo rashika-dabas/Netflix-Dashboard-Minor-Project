@@ -30,4 +30,9 @@ The dataset has 5283 records, and this data includes both movies and shows.
 
 ## DATA CLEANING
 1. Changed datatype of columns from mixed to standard datatypes.
-2. 
+2. Null Handling:
+* age_certification: Insert a step after clicking fx at top to find mode using List.Mode(List.RemoveNulls(#"Changed Type"[age_certification])) in Power Query Editor (or can see Column Value Distribution after setting Column Profiling to entire dataset too). Delete this step after mode is known. Now, use mode to replace null values.
+* imdb_votes: Replace 1 null value with 0 (representing no votes).
+3. Apply filter to select all rows (optional).
+4. Error Handling: Replace zeroes in runtime column with the average of column values.
+5. Feature Engineering: Create a new column "overall_ratings" multiplying imdb_score and imdb_votes.
