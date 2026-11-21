@@ -36,3 +36,24 @@ The dataset has 5283 records, and this data includes both movies and shows.
 3. Apply filter to select all rows (optional).
 4. Error Handling: Replace zeroes in runtime column with the average of column values.
 5. Feature Engineering: Create a new column "overall_ratings" multiplying imdb_score and imdb_votes.
+
+## DATA VISUALIZATION
+### DAX Expressions
+1. Mode Age Certification = 
+MINX (
+    TOPN (
+        1,
+        ADDCOLUMNS (
+            VALUES(Netflix[age_certification]),
+            "Frequency", CALCULATE(COUNT(Netflix[age_certification]))
+        ),
+        [Frequency],
+        DESC
+    ),
+    Netflix[age_certification]
+)
+2. Average Runtime = AVERAGE(Netflix[runtime])
+### Reports
+Created a page with KPI plots for DAX measures, a page with all visuals related to problem statement and another page with a text box containing all insights.
+### Dashboard
+Pinned Report 2 and 3 to the dashboard in Power BI Service.
